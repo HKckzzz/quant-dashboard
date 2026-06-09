@@ -9,3 +9,4 @@ data/screenshots/
 /tmp/
 .venv/
 venv/
+.env
