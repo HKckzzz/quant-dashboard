@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl *)",
+      "Bash(npm run dev *)",
+      "Bash(npm run build *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(python -m uvicorn main:app *)",
+      "Bash(netstat -ano *)",
+      "Bash(pkill -f *)",
+      "Bash(taskkill *)",
+      "Bash(cmd.exe /c start http://localhost:*)",
+      "Bash(pip install *)",
+      "Bash(pip uninstall *)",
+      "Bash(nohup *)",
+      "Bash(timeout *)",
+      "Bash(mkdir *)"
+    ]
+  }
+}
